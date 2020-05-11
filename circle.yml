@@ -1,15 +1,17 @@
-machine:
-  ruby:
-    version: 2.5.1
-  node:
-    version: 8.0.0
+version: 2 # use CircleCI 2.0
+jobs:
+    machine:
+    ruby:
+        version: 2.5.1
+    node:
+        version: 8.0.0
 
-dependencies:
-  pre:
-    - ./bin/setup
+    dependencies:
+    pre:
+        - ./bin/setup
 
-test:
-  post:
-    - bundle exec jekyll build
-    - rm -R ./_site/node_modules
-    - bundle exec htmlproofer ./_site --only-4xx --allow-hash-href --assume-extension --check-opengraph --url-ignore "feed.xml"
+    test:
+    post:
+        - bundle exec jekyll build
+        - rm -R ./_site/node_modules
+        - bundle exec htmlproofer ./_site --only-4xx --allow-hash-href --assume-extension --check-opengraph --url-ignore "feed.xml"
