@@ -7,11 +7,19 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Signaling in WebRTC with Ably and Fable</title>
+        <description>Implement simple WebRTC signaling mechanism via Ably.io.</description>
+        <pubDate>Tue, 05 Jan 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/webrtcandably</link>
+        <guid isPermaLink="true">http://localhost:4000/webrtcandably</guid>
+      </item>
+    
+      <item>
         <title>Struggles when migrating from ES 6.8 to ES 7.5</title>
         <description>What problems I encounter when migrating from ES 6.8 to ES 7.5 and how to avoid them.</description>
         <pubDate>Sun, 26 Apr 2020 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/migratedatafromoneelastictoanother</link>
-        <guid isPermaLink="true">http://localhost:4000/migratedatafromoneelastictoanother</guid>
+        <link>http://localhost:4000/migratedatafromoneelastictoanother-copy</link>
+        <guid isPermaLink="true">http://localhost:4000/migratedatafromoneelastictoanother-copy</guid>
       </item>
     
       <item>
@@ -77,14 +85,6 @@ Wee decided to implement the mechanism, which responsibility would be to collect
         <pubDate>Thu, 20 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/serializationofuniontype</link>
         <guid isPermaLink="true">http://localhost:4000/serializationofuniontype</guid>
-      </item>
-    
-      <item>
-        <title>GraphQL error propagation</title>
-        <description>In this post we gonna take a look at available options on how to propagate errors in GraphQL</description>
-        <pubDate>Sun, 19 Aug 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/graphqlerrorpropagation</link>
-        <guid isPermaLink="true">http://localhost:4000/graphqlerrorpropagation</guid>
       </item>
     
   </channel>
